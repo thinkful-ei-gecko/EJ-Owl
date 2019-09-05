@@ -12,7 +12,14 @@
     font-size: 16px;
     text-align: left;
     border-right: 1px solid #eeeeef;
-    z-index: 2;
+
+    /* This index will show or not show participants
+    
+    < 0 will not show
+    > 1 will show
+
+    */
+    z-index: 0;
 }
 
 .user {
