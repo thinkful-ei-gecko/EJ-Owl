@@ -1,0 +1,80 @@
+.chat {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    background-color: white;
+    color: grey;
+    display: inline-block;
+    height: 85vh;
+    padding-bottom: 2px;
+    overflow: scroll;
+    font-size: 16px;
+    text-align: left;
+    border-right: 1px solid #eeeeef;
+}
+
+.chatHeaders {
+    width: 100%;
+    text-align: center;
+}
+
+.chatHeaders h2 {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 6px;
+    font-size: 1rem;
+}
+
+.chatHeaders h2:hover {
+    cursor: pointer;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+}
+
+.chatBox {
+    width: 100%;
+    font-size: 14.5px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+.message-body {
+    width: 252px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.message-body h2 {
+    font-size: 14.5px;
+    display: inline-block;
+}
+
+.message-body > p {
+    margin-top: 3px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+}
+
+.chatImg {
+    border-radius: 100%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.chatInput {
+    height: 50px;
+    width: 93%;
+    background-color: grey;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

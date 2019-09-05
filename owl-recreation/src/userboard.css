@@ -1,0 +1,30 @@
+.mainStage {
+    position: absolute;
+    background-color: rgb(223, 223, 223);
+    width: calc(100% - 350px);
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.onSession {
+    text-align: center;
+    margin-right: 75px;
+    width: 250px;
+    height: 250px;
+    margin-top: 20%;
+}
+
+.onSession img {
+    background-color: black;
+    margin-top: 20%;
+    border-radius: 100%;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+}
